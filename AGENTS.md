@@ -11,16 +11,18 @@
 
 # Lovable task
 
-Continue the development of the projects/features that were previously requested for this project. Review the existing implementation and preserve the work that has already been completed instead of starting over.
+The project owner previously supplied a ZIP containing the mapper source and requested that the existing project/files from that ZIP be continued and modified, not replaced with a new unrelated implementation. The relevant ZIP available from the owner's previous work is `keysync-mouse-working-no-accel.zip`.
 
-Apply the requirements and conditions previously requested by the project owner, including the following current mapper requirements:
+Use the existing mapper implementation/files that came from the previously supplied project as the basis for the work. Review the existing code and apply the requested changes to the relevant existing files.
 
-- The current sensitivity is good and should remain the baseline.
+Previously requested conditions:
+- The current sensitivity is good as the baseline and should be preserved.
 - Fix the moments when the sensitivity becomes too heavy.
-- Remove the remaining mouse/input acceleration so movement is consistent.
-- Fix the mapper lag that happens during gameplay, especially in the middle of a game.
+- Remove the remaining acceleration from mouse/input movement so the response is consistent.
+- The mapper has noticeable lag during gameplay, especially in the middle of a game; investigate the actual cause and fix it.
 - Optimize mapper/overlay processing for low latency and stable input response.
-- Preserve existing functionality and previously implemented features.
-- Review the existing project files before making changes and modify the relevant existing implementation rather than creating an unrelated replacement.
+- Preserve all existing functionality and previous changes from the supplied project.
+- Do not replace the mapper with a simplified mock or unrelated implementation.
+- Inspect the existing source and modify the relevant files from the previous project directly.
 
-Also review the existing project for the features and changes requested previously in the Lovable project history and continue from the current state. Do not discard or regress previously implemented functionality.
+Continue from the existing implementation and verify that the requested fixes do not regress the working sensitivity or other mapper features.
